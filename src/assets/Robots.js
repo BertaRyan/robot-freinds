@@ -1,7 +1,7 @@
 
 export const robotArray = [
     {
-        name: "Norbit weldington",
+        name: "Norbits weldington",
         img: "https://robohash.org/ajsflnmcvjkasf",
         email: "purplenurple@halfdome.com",
         id: Math.floor(Math.random() * 9999)
