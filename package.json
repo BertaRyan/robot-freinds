@@ -2,7 +2,7 @@
   "name": "robo-friends",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://<username>.github.io/<repo-name>",
+  "homepage": "https://BertaRyan.github.io/robot-friends",
   "type": "module",
   "scripts": {
     "dev": "vite",
