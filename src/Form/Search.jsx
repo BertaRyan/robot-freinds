@@ -13,7 +13,7 @@ const Search = ({list}) => {
         console.log(filterValue)
     }
 
-    const updatedList = list.filter(i => i.name.includes(filterValue))
+    const updatedList = list.filter(i => i.name.toLowerCase().includes(filterValue.toLowerCase()))
   return (
     <div>
       <div className="input-container">
