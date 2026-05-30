@@ -7,3 +7,9 @@
     justify-content:space-evenly;
     gap:30px;
 }
+
+@media (max-width: 480px){
+    .list-container{
+        grid-template-columns: 100%;
+    }
+}
