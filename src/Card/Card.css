@@ -15,11 +15,11 @@
 }
 
 .card-container:nth-of-type(odd):hover{
-    rotate: 5deg;
+    rotate: 3deg;
     box-shadow: 15px 10px 0 black;
 }
 .card-container:nth-of-type(even):hover {
-    rotate: -5deg;
+    rotate: -3deg;
     box-shadow: -15px 10px 0 black;
 }
 
