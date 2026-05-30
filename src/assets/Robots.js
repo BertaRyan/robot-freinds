@@ -54,5 +54,11 @@ export const robotArray = [
         email: "rberta@halfdome.com",
         id: Math.floor(Math.random() * 9999)
     },
+    {
+        name: "Izzy Cutie",
+        img: "https://robohash.org/candy",
+        email: "icutie@halfdome.com",
+        id: Math.floor(Math.random() * 9999)
+    }
 
 ]
