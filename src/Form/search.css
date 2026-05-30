@@ -18,6 +18,10 @@
     margin:0 auto;
     text-indent:15px;
     font-size:20px;
+    transition: .5s all;
+}
+.search-input:focus{
+    box-shadow: 10px 10px 2px black;
 }
 
 
