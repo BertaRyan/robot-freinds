@@ -4,6 +4,11 @@ import "./Card.css"
 
 const Card = ({item}) => {
 console.log(item)
+
+const handleClick = (name, email) => {
+  alert(`Hello name is ${name}! if you need to contact me email me at ${email}.`)
+}
+
 const {name, img, email} = item;
   return (
     <div className="card-container">
@@ -13,7 +18,7 @@ const {name, img, email} = item;
       <div className='card-body'>
         <h1>Name: {name}</h1>
         <p>email: {email}</p>
-        <button>CALL NOW</button>
+        <button onClick={() => handleClick(name, email)}>CALL NOW</button>
       </div>
         
       
